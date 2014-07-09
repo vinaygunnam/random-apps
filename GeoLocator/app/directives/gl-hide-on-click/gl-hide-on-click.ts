@@ -19,7 +19,7 @@
                         var btnTarget = element.find(scope.triggerSelector);
                         btnTarget.on("click", () => {
                             if (scope.fade) {
-                                element.fadeOut();
+                                element.fadeOut(2000);
                             } else {
                                 element.hide();
                             }
