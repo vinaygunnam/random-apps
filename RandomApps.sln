@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularJs", "AngularJs", "{954CC3CB-A219-4733-86E2-F776A6108E86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLocator", "GeoLocator\GeoLocator.csproj", "{596FA9AD-4123-49BB-AD7F-94C3412993C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{7CF84D6E-9655-412F-833E-553EB5A8100B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExperiments", "LinqExperiments\LinqExperiments.csproj", "{41F2682B-0692-4328-9D37-2FC204B9816F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +21,16 @@ Global
 		{596FA9AD-4123-49BB-AD7F-94C3412993C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{596FA9AD-4123-49BB-AD7F-94C3412993C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{596FA9AD-4123-49BB-AD7F-94C3412993C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F2682B-0692-4328-9D37-2FC204B9816F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F2682B-0692-4328-9D37-2FC204B9816F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F2682B-0692-4328-9D37-2FC204B9816F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F2682B-0692-4328-9D37-2FC204B9816F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{596FA9AD-4123-49BB-AD7F-94C3412993C6} = {954CC3CB-A219-4733-86E2-F776A6108E86}
+		{41F2682B-0692-4328-9D37-2FC204B9816F} = {7CF84D6E-9655-412F-833E-553EB5A8100B}
 	EndGlobalSection
 EndGlobal
