@@ -7,23 +7,23 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LinqExperiments
+namespace LinqExperiments.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Category
+    public partial class Territory
     {
-        public Category()
+        public Territory()
         {
-            this.Products = new HashSet<Product>();
+            this.Employees = new HashSet<Employee>();
         }
     
-        public int CategoryID { get; set; }
-        public string CategoryName { get; set; }
-        public string Description { get; set; }
-        public byte[] Picture { get; set; }
+        public string TerritoryID { get; set; }
+        public string TerritoryDescription { get; set; }
+        public int RegionID { get; set; }
     
-        public virtual ICollection<Product> Products { get; set; }
+        public virtual Region Region { get; set; }
+        public virtual ICollection<Employee> Employees { get; set; }
     }
 }

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LinqExperiments
+namespace LinqExperiments.Models
 {
     using System;
     using System.Data.Entity;

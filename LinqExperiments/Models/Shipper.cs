@@ -7,21 +7,22 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LinqExperiments
+namespace LinqExperiments.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class CustomerDemographic
+    public partial class Shipper
     {
-        public CustomerDemographic()
+        public Shipper()
         {
-            this.Customers = new HashSet<Customer>();
+            this.Orders = new HashSet<Order>();
         }
     
-        public string CustomerTypeID { get; set; }
-        public string CustomerDesc { get; set; }
+        public int ShipperID { get; set; }
+        public string CompanyName { get; set; }
+        public string Phone { get; set; }
     
-        public virtual ICollection<Customer> Customers { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }

@@ -7,20 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LinqExperiments
+namespace LinqExperiments.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Customer
+    public partial class Supplier
     {
-        public Customer()
+        public Supplier()
         {
-            this.Orders = new HashSet<Order>();
-            this.CustomerDemographics = new HashSet<CustomerDemographic>();
+            this.Products = new HashSet<Product>();
         }
     
-        public string CustomerID { get; set; }
+        public int SupplierID { get; set; }
         public string CompanyName { get; set; }
         public string ContactName { get; set; }
         public string ContactTitle { get; set; }
@@ -31,8 +30,8 @@ namespace LinqExperiments
         public string Country { get; set; }
         public string Phone { get; set; }
         public string Fax { get; set; }
+        public string HomePage { get; set; }
     
-        public virtual ICollection<Order> Orders { get; set; }
-        public virtual ICollection<CustomerDemographic> CustomerDemographics { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
     }
 }
